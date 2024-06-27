@@ -1,0 +1,73 @@
+.Form-SignUp{
+    background-color: aquamarine;
+    width: fit-content;
+    height: fit-content;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    place-items: center; */
+    margin: 0 auto;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column; /* Căn chỉnh theo chiều dọc */
+}
+
+.Form-group {
+    display: flex; /* Sử dụng flexbox cho mỗi nhóm input */
+    align-items: center; /* Căn chỉnh các thành phần trong nhóm vào giữa */
+    margin-bottom: 10px; /* Khoảng cách dưới giữa các nhóm input */
+}
+
+.Form-group label {
+    flex-basis: 100px; /* Định sẵn kích thước của label */
+    flex-shrink: 0; /* Không cho phép thu gọn label */
+    padding-right: 10px; /* Khoảng cách bên phải giữa label và input */
+    text-align: right; /* Căn chỉnh label về phía bên phải */
+}
+
+.Form-group input[type="text"] {
+    flex: 1; /* Mở rộng input theo chiều dọc */
+    padding: 5px; /* Đệm bên trong input */
+    border: 1px solid #ccc; /* Viền input */
+    border-radius: 3px; /* Bo tròn viền input */
+}
+
+.Form-group input[type="Email"] {
+    flex: 1; /* Mở rộng input theo chiều dọc */
+    padding: 5px; /* Đệm bên trong input */
+    border: 1px solid #ccc; /* Viền input */
+    border-radius: 3px; /* Bo tròn viền input */
+}
+
+.Form-group select {
+    margin-right: 10px; /* Khoảng cách bên phải giữa các select box */
+    padding: 5px; /* Đệm bên trong select box */
+    border: 1px solid #ccc; /* Viền select box */
+    border-radius: 3px; /* Bo tròn viền select box */
+}
+
+.Form-Birhtday {
+
+    text-align: right;
+    display: flex; /* Sử dụng flexbox cho mỗi nhóm input */
+    align-items: center; /* Căn chỉnh các thành phần trong nhóm vào giữa */
+    margin-bottom: 10px; /* Khoảng cách dưới giữa các nhóm input */
+}
+
+.Form-Birhtday label{
+    flex-basis: 100px; /* Định sẵn kích thước của label */
+    flex-shrink: 0; /* Không cho phép thu gọn label */
+    padding-right: 10px; /* Khoảng cách bên phải giữa label và input */
+    text-align: right; /* Căn chỉnh label về phía bên phải */
+}
+
+.Form-Birhtday select {
+    margin-right: 10px; /* Khoảng cách bên phải giữa các select box */
+    padding: 5px; /* Đệm bên trong select box */
+    border: 1px solid #ccc; /* Viền select box */
+    border-radius: 3px; /* Bo tròn viền select box */
+}
+
