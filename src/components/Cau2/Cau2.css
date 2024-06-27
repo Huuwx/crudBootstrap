@@ -1,0 +1,113 @@
+.Form-SignUp {
+    background-color: aquamarine;
+    max-width: 400px; /* Giới hạn chiều rộng của form để tránh quá rộng trên màn hình lớn */
+    margin: auto; /* Căn giữa form */
+    padding: 20px; /* Khoảng cách padding bao quanh form */
+    /* width: fit-content;
+    height: fit-content;
+    margin: 0 auto; */
+}
+
+.Form-SignUp h2 {
+    font-size: 28px; /* Độ lớn của tiêu đề 'Sign Up' */
+    margin-bottom: 10px; /* Khoảng cách dưới của tiêu đề */
+}
+
+.Form-SignUp h3 {
+    font-size: 16px; /* Độ lớn của tiêu đề 'It's free and anyone can join' */
+    color: #666; /* Màu chữ xám nhạt */
+    margin-bottom: 20px; /* Khoảng cách dưới của tiêu đề */
+}
+
+.Form {
+    display: flex; /* Sử dụng flexbox để các thành phần trong form căn chỉnh hàng ngang */
+    flex-direction: column; /* Cho phép các thành phần chồng lên nhau khi không đủ không gian */
+}
+
+.Form-group {
+    /* flex: 1;  */
+    /* Căn chỉnh các thành phần trong form mở rộng theo chiều dọc */
+    /* margin-bottom: 15px;  */
+    /* Khoảng cách dưới giữa các thành phần */
+    display: flex; /* Sử dụng flexbox cho mỗi nhóm input */
+    align-items: center; /* Căn chỉnh các thành phần trong nhóm vào giữa */
+    margin-bottom: 10px; /* Khoảng cách dưới giữa các nhóm input */
+}
+
+.Form-group label {
+    display: block; 
+    /* Hiển thị label dưới dạng block để nằm trên cùng một dòng với input */
+    margin-bottom: 5px; 
+    /* Khoảng cách dưới của label */
+    flex-basis: 100px; /* Định sẵn kích thước của label */
+    flex-shrink: 0; /* Không cho phép thu gọn label */
+    
+    
+}
+
+.Form-group input
+{
+    width: 100%; /* Chiều rộng của input và select box là 100% */
+    padding: 8px; /* Đệm bên trong input và select box */
+    border: 1px solid #ccc; /* Viền xung quanh input và select box */
+    border-radius: 4px; /* Bo tròn viền */
+    box-sizing: border-box; /* Đảm bảo kích thước tính cả padding và border */
+}
+
+.Form-group select{
+    margin-right: 10px; /* Khoảng cách bên phải giữa các select box */
+    padding: 5px; /* Đệm bên trong select box */
+    border: 1px solid #ccc; /* Viền select box */
+    border-radius: 3px; /* Bo tròn viền select box */
+}
+
+.Form-Birthday {
+    width: 100%; /* Đảm bảo rằng phần chọn ngày sinh chiếm hết chiều rộng của form */
+    margin-bottom: 15px; /* Khoảng cách dưới giữa các thành phần */
+}
+
+.Form-Birthday label{
+    text-align: right; /* Căn chỉnh label về phía bên phải */
+}
+
+.Form-Submit {
+    /* Căn chỉnh nút 'Sign Up' vào giữa */
+    /* text-align: center;  */
+}
+
+.Form-Submit input[type="submit"] {
+    background-color: green; /* Màu nền của nút 'Sign Up' */
+    color: white; /* Màu chữ của nút 'Sign Up' */
+    padding: 10px 20px; /* Đệm bên trong nút 'Sign Up' */
+    font-size: 16px; /* Độ lớn chữ của nút 'Sign Up' */
+    border: none; /* Loại bỏ viền của nút */
+    border-radius: 4px; /* Bo tròn viền nút */
+    cursor: pointer; /* Con trỏ chuột khi di chuột vào nút */
+    transition: background-color 0.3s ease; /* Hiệu ứng chuyển đổi màu nền */
+}
+
+.Form-Submit input[type="submit"]:hover {
+    background-color: #0056b3; /* Màu nền của nút 'Sign Up' khi di chuột vào */
+}
+
+.Form-Birthday {
+
+    text-align: right;
+    display: flex; /* Sử dụng flexbox cho mỗi nhóm input */
+    align-items: center; /* Căn chỉnh các thành phần trong nhóm vào giữa */
+    margin-bottom: 10px; /* Khoảng cách dưới giữa các nhóm input */
+}
+
+.Form-Birthday label{
+    flex-basis: 100px; /* Định sẵn kích thước của label */
+    flex-shrink: 0; /* Không cho phép thu gọn label */
+    padding-right: 42px; /* Khoảng cách bên phải giữa label và input */
+    text-align: right; /* Căn chỉnh label về phía bên phải */
+}
+
+.Form-Birthday select {
+    margin-right: 10px; /* Khoảng cách bên phải giữa các select box */
+    padding: 5px; /* Đệm bên trong select box */
+    border: 1px solid #ccc; /* Viền select box */
+    border-radius: 3px; /* Bo tròn viền select box */
+}

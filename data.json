@@ -1,0 +1,25 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "name": "Thomas Hardy",
+      "email": "thomashardy@mail.com",
+      "address": "89 Chiaroscuro Rd, Portland, USA, jqk",
+      "phone": "(171) 555-2222"
+    },
+    {
+      "id": "2",
+      "name": "Dominique Perrier",
+      "email": "dominiqueperrier@mail.com",
+      "address": "Obere Str. 57, Berlin, Germany",
+      "phone": "(313) 555-5735"
+    },
+    {
+      "id": "0118",
+      "name": "chu manh huu",
+      "email": "haha@gmail.com",
+      "address": "kasjhdfk",
+      "phone": "011111"
+    }
+  ]
+}
